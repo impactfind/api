@@ -2,7 +2,7 @@ const PUT = module.exports.PUT = (req, res, url, port) => {
   let link = `${__API}${port}${url}`;
   const {body} = req;
   const token = __getAuthorizationToken(req.headers.authorization);
-  __axios.post(link, body, {
+  __axios.put(link, body, {
     headers: {
       Authorization: `Bearer ${token}`
     }

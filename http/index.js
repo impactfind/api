@@ -11,7 +11,8 @@ const index = module.exports.index = (req, res) => {
   const request = require(`./${method}`)[method];
   console.log('request ', method)
   console.log('service ', service)
-  console.log('url ', service)
+  console.log('url ', url)
+  console.log(request)
   request(req, res, url, PORT[service]);
   // res.json({
   //   message: "jalan kok"
