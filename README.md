@@ -725,7 +725,7 @@
             
             * **URL**
             
-              /delete/:id
+              /delete/:id/leave
             
             * **Method:**
             
@@ -773,7 +773,7 @@
             
               ```javascript
                 $.ajax({
-                  url: "/project/:id",
+                  url: "/project/:id/leave",
                   dataType: "json",
                   header: "token"
                   type : "DELETE",
