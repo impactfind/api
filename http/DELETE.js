@@ -11,6 +11,6 @@ const DELETE = module.exports.DELETE = (req, res, url, port)=> {
     .catch(err=>{
       console.log(err);
       console.log('response',err.response);
-      res.error(err.response.data)
+      res.error(err)
     })
 };
