@@ -15,8 +15,6 @@ const index = module.exports.index = (req, res) => {
   console.log('url ', url)
   console.log(request)
   request(req, res, url, PORT[service]);
-  // res.json({
-  //   message: "jalan kok"
-  // })
+
 
 };
