@@ -1,6 +1,7 @@
 const PORT = {
   user: "30001",
-  project: "30002"
+  project: "30002",
+  admin: "30003"
 
 };
 
