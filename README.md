@@ -719,9 +719,9 @@
               });
             ```
             
-            **Delete Project**
+            **Leave Project**
             ----
-              delete project
+              leave project
             
             * **URL**
             
