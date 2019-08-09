@@ -1,7 +1,7 @@
 const DELETE = module.exports.DELETE = (req, res, url, port)=> {
   let link = `${__API}${port}${url}`;
   const token = __getAuthorizationToken(req.headers.authorization);
-  __axios.get(link, {
+  __axios.delete(link, {
     headers: {
       Authorization: `Bearer ${token}`
     }
