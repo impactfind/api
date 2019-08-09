@@ -15,7 +15,7 @@ const POST = module.exports.POST = (req, res, url, port) => {
     })
     .catch(err=> {
 
-      console.log(err.response.data);
+
       res.error(err.response.data)
     })
 };
